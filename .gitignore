@@ -71,3 +71,23 @@ upskill/*.md
 .agents/**/node_modules/
 .agents/**/*.log
 .agents/usage/
+
+# Documentos personales / CV / datos sensibles
+documents/*
+!documents/README.md
+
+cv/*
+cover_letters/*
+test_outputs/*
+
+*.pdf
+*.docx
+*.xlsx
+*.csv
+*.html
+
+# Archivos temporales
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
