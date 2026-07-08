@@ -91,3 +91,6 @@ test_outputs/*
 *.tmp
 .DS_Store
 Thumbs.db
+
+# Configuración local de Codex
+.codex/
